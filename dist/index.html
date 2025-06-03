@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizqi Zulqornain</title>
+    <link rel="shortcut icon" href="/assets/logo-BLDOLSU5.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="
+    style.css"
+    />
+
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DrbhOgZ2.css">
+  </head>
+  <body class="dark:bg-slate-800">
+    <!-- Header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >Zulqornain</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#myskill"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Skill Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Portofolio</a
+                  >
+                </li>
+                <!-- <li class="group">
+                  <a
+                    href="#clients"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Clients</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Blog</a
+                  >
+                </li> -->
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    >Kontak</a
+                  >
+                </li>
+                <li class="flex items-center pl-8">
+                  <div class="flex">
+                    <span class="mr-2 text-sm text-slate-500">light</span>
+                    <input type="checkbox" class="hidden" id="dark-toggle" />
+                    <label for="dark-toggle">
+                      <div
+                        class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1"
+                      >
+                        <div
+                          class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"
+                        ></div>
+                      </div>
+                    </label>
+                    <span class="mr-2 text-sm text-slate-500">Dark</span>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Assalamu'alaikum. 😊
+              <span
+                class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white"
+                >Rizqi Zulqornain</span
+              >
+            </h1>
+            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
+              Freelancer |
+              <span class="text-dark dark:text-white"
+                >Junior Web Developer</span
+              >
+              |
+              <span class="text-dark dark:text-white">Content Creator</span>
+            </h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">
+              Selamat datang di website portofolio saya. Saya seorang junior web
+              developer yang sudah tersertifikasi oleh
+              <span class="text-dark font-bold dark:text-white"
+                >Badan Nasional Sertifikasi Profesi (BNSP).</span
+              >
+            </p>
+            <a
+              href="https://wa.me/0895378007252"
+              target="_blank"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Hubungi Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img
+                src="/assets/rizqi-C7ku8ryN.png"
+                alt="Rizqi Zulqornain"
+                class="max-w-full mx-auto relative z-10"
+              />
+              <span
+                class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125"
+              >
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#0ea5e9"
+                    d="M45.5,-43.7C59.4,-31.6,71.4,-15.8,74.9,3.5C78.4,22.8,73.4,45.6,59.5,56.4C45.6,67.2,22.8,66,0.7,65.3C-21.5,64.7,-43,64.6,-55.2,53.8C-67.4,43,-70.4,21.5,-68.5,1.9C-66.7,-17.8,-60,-35.6,-47.8,-47.6C-35.6,-59.7,-17.8,-66.1,-1,-65.1C15.8,-64.1,31.6,-55.8,45.5,-43.7Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary mb-3">Tentang Saya</h4>
+            <h2
+              class="font-black text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white"
+            >
+              siapa SAYA ? 🤔
+            </h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-xl">
+              Halo! Saya seorang Junior Web Developer yang berdedikasi untuk
+              membantu mewujudkan solusi digital terbaik untuk kebutuhan Anda.
+              Selain membuka jasa pembuatan website, saya juga menyediakan
+              layanan privat untuk calon developer junior yang ingin memulai
+              karier di dunia pemrograman. Tidak hanya itu, saya juga melayani
+              jasa perakitan PC yang sesuai dengan kebutuhan Anda, baik untuk
+              bekerja, belajar, maupun gaming.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white"
+            >
+              Mari berteman
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Buat kalian yang pengen lebih deket lagi sama saya, boleh klik
+              salah satu icon di bawah yaa. 😊
+            </p>
+            <div class="flex items-center dark:text-white">
+              <!-- Facebook -->
+              <a
+                href="https://www.facebook.com/rizqi.zulqornain.908/"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                ><svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Facebook</title>
+                  <path
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                  /></svg
+              ></a>
+              <a
+                href="https://www.instagram.com/rizqi_zulqornain/"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                ><svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  /></svg
+              ></a>
+              <a
+                href="https://www.youtube.com/@zoeL_CLP"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                ><svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  /></svg
+              ></a>
+              <a
+                href="https://wa.me/0895378007252"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                ><svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>WhatsApp</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- My Skill Section Start -->
+    <section id="myskill" class="mt-10 pt-36 pb-32 bg-slate-800 dark:mt-0">
+      <div class="container">
+        <h1
+          class="block font-bold text-white text-4xl lg:text-5xl text-center mb-10"
+        >
+          Skill <span class="text-primary">Saya</span>
+        </h1>
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <div class="heading font-semibold text-white mb-5">
+              <h1>Keterampilan Teknis</h1>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #f16a30"
+                >
+                  <title>HTML5</title>
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+                  />
+                </svg>
+
+                <div class="indfo">HTML</div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #2d53e5"
+                >
+                  <title>CSS3</title>
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                  />
+                </svg>
+
+                <div class="indfo">CSS</div>
+                <div class="progress-line css">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #f7e025"
+                >
+                  <title>JavaScript</title>
+                  <path
+                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                  />
+                </svg>
+
+                <div class="indfo">JavaScript</div>
+                <div class="progress-line javascript">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #556096"
+                >
+                  <title>PHP</title>
+                  <path
+                    d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"
+                  />
+                </svg>
+
+                <div class="indfo">PHP</div>
+                <div class="progress-line php">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #e69108"
+                >
+                  <title>MySQL</title>
+                  <path
+                    d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
+                  />
+                </svg>
+
+                <div class="indfo">MySQL</div>
+                <div class="progress-line mysql">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #3ebff8"
+                >
+                  <title>Tailwind CSS</title>
+                  <path
+                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                  />
+                </svg>
+                <div class="indfo">Tailwind CSS</div>
+                <div class="progress-line tailwind-css">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #8f1afe"
+                >
+                  <title>Bootstrap</title>
+                  <path
+                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+                  />
+                </svg>
+
+                <div class="indfo">Bootsrap</div>
+                <div class="progress-line bootstrap">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #de4e1b"
+                >
+                  <title>CodeIgniter</title>
+                  <path
+                    d="M11.466 0c.88 1.423-.28 3.306-1.207 4.358-.899 1.02-1.992 1.873-2.985 2.8-1.066.996-2.091 2.044-2.967 3.213-1.753 2.339-2.827 5.28-2.038 8.199.788 2.916 3.314 4.772 6.167 5.429-1.44-.622-2.786-2.203-2.79-3.82-.003-1.765 1.115-3.262 2.505-4.246-.167.632-.258 1.21.155 1.774a1.68 1.68 0 0 0 1.696.642c1.487-.326 1.556-1.96.674-2.914-.872-.943-1.715-2.009-1.384-3.377.167-.685.588-1.328 1.121-1.787-.41 1.078.755 2.14 1.523 2.67 1.332.918 2.793 1.612 4.017 2.688 1.288 1.132 2.24 2.661 2.047 4.435-.208 1.923-1.736 3.26-3.45 3.936 3.622-.8 7.365-3.61 7.44-7.627.093-3.032-1.903-5.717-5.158-7.384.19.48.074.697-.058.924-.55.944-2.082 1.152-2.835.184-1.205-1.548.025-3.216.197-4.855.215-2.055-1.073-4.049-2.67-5.242z"
+                  />
+                </svg>
+
+                <div class="indfo">CodeIgniter</div>
+                <div class="progress-line code-igniter">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #f04134"
+                >
+                  <title>Laravel</title>
+                  <path
+                    d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z"
+                  />
+                </svg>
+
+                <div class="indfo">Laravel</div>
+                <div class="progress-line laravel">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="Technical-bars mb-6">
+              <div class="bar text-white mb-5">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: #94c745"
+                >
+                  <title>Node.js</title>
+                  <path
+                    d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"
+                  />
+                </svg>
+
+                <div class="indfo">Node.js</div>
+                <div class="progress-line node-js">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <div class="heading font-semibold text-white mb-5">
+                <h1>Keterampilan Profesional</h1>
+              </div>
+              <div class="radial-bars">
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-1"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Kreativitas</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-2"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">90%</div>
+                  <div class="text text-white">Manajemen Waktu</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-3"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">75%</div>
+                  <div class="text text-white">Public Speaking</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-4"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Kerja Tim</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-5"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Komunikasi</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-6"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Analisis</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-7"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Leadership</div>
+                </div>
+                <div class="radial-bar">
+                  <svg x="0px" y="0p" viewBox="0 0 200 200" class="mt-5">
+                    <circle
+                      class="progress-bar"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                    <circle
+                      class="path path-8"
+                      cx="100"
+                      cy="100"
+                      r="80"
+                    ></circle>
+                  </svg>
+                  <div class="precentage text-white">70%</div>
+                  <div class="text text-white">Adaptasi</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Skill Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white"
+            >
+              Projek Latihan
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Ini beberapa projek latihan yang saya buat.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/assets/toko-lMJnunWo.png" alt="" width="w-full" />
+            </div>
+            <h3
+              class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white"
+            >
+              Toko Online
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Projek ini saya buat pakai framework PHP bernama CodeIgniter dan
+              Bootstrap.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/assets/undangan-Dj9iRSEU.png" alt="" width="w-full" />
+            </div>
+            <h3
+              class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white"
+            >
+              Undangan Pernikahan
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Projek ini saya buat pakai Bootstrap.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/assets/kas_masjidd-DcJodmFf.png" alt="" width="w-full" />
+            </div>
+            <h3
+              class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white"
+            >
+              Sistem Pengelolaan Kas Masjid
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Projek ini saya buat pakai PHP Native.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/assets/buku_tamu-BXm3P38l.png" alt="" width="w-full" />
+            </div>
+            <h3
+              class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white"
+            >
+              Buku Tamu
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Projek ini saya buat pakai PHP Native dan Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Client Section Start -->
+    <!-- <section id="clients" class="pt-36 pb-32 bg-slate-800 ">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+            <h2
+              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Yang Pernah Bekerjasama
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+              nesciunt, illum ab iure tenetur nihil?
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="#">
+              <img
+                src="img/google-icon-logo-svgrepo-com.svg"
+                alt=""
+                class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="img/google-icon-logo-svgrepo-com.svg"
+                alt=""
+                class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="img/google-icon-logo-svgrepo-com.svg"
+                alt=""
+                class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="img/google-icon-logo-svgrepo-com.svg"
+                alt=""
+                class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Client Section End -->
+
+    <!-- Section Blog Start -->
+    <!-- <section></section> -->
+    <!-- Section Blog End -->
+
+    <!-- Section Contact Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Kontak</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white"
+            >
+              Hubungi Saya
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Saya selalu terbuka untuk berdiskusi dan menjawab pertanyaan Anda.
+              Jangan ragu untuk menghubungi saya melalui informasi di bawah ini!
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div class="bg-white shadow-lg rounded-lg p-6 dark:bg-slate-800">
+              <h3 class="font-semibold text-lg text-primary mb-3">Email</h3>
+              <p class="text-dark dark:text-white">
+                <a
+                  href="mailto:yourname@example.com"
+                  class="hover:text-primary"
+                >
+                  rizqizulqornain056@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mt-6 md:mt-0">
+            <div class="bg-white shadow-lg rounded-lg p-6 dark:bg-slate-800">
+              <h3 class="font-semibold text-lg text-primary mb-3">Telepon</h3>
+              <p class="text-dark dark:text-white">
+                <a href="tel:+6281234567890" class="hover:text-primary">
+                  +6289-537-800-7252
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="w-full px-4 mt-6">
+            <div
+              class="bg-white shadow-lg rounded-lg overflow-hidden dark:bg-slate-800"
+            >
+              <h3 class="font-semibold text-lg text-primary mb-3 p-6">
+                Lokasi
+              </h3>
+              <div class="h-[500px] w-full">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7910.928343201529!2d108.84886625242308!3d-7.52424246134393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1733993662113!5m2!1sid!2sid"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="rounded-lg"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Rizqi Zulqornain</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <h2>rizqizulqornain056@gmail.com</h2>
+            <p>Jl. Nahdayan Gandrungmangu Rt 01 Rw 03</p>
+            <p>Cilacap</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3 justify-center items-center">
+            <h3
+              class="flex justify-center font-semibold text-xl text-white mb-5"
+            >
+              Scan Me
+            </h3>
+            <div class="flex justify-center">
+              <img src="/assets/rizqi_zulqornain_qr-Cb66WFhu.png" width="150px" alt="" />
+            </div>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#myskill"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Skill Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portofolio"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Portofolio</a
+                >
+              </li>
+              <!-- <li>
+                <a
+                  href="#clients"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Clients</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#blog"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Blog</a
+                >
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/rizqi.zulqornain.908/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              ><svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Facebook</title>
+                <path
+                  d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.instagram.com/rizqi_zulqornain/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              ><svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                /></svg
+            ></a>
+            <a
+              href="https://www.youtube.com/@zoeL_CLP"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              ><svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>YouTube</title>
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                /></svg
+            ></a>
+            <a
+              href="https://wa.me/0895378007252"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              ><svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>WhatsApp</title>
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                /></svg
+            ></a>
+          </div>
+          <p class="font-medium text-xs text-slate-500 text-center">
+            Dibuat dengan <span class="text-pink-500">❤️</span> oleh
+            <a
+              href="https://www.instagram.com/rizqi_zulqornain/"
+              target="_blank"
+              class="font-bold text-primary"
+              >Rizqi Zulqornain</a
+            >
+            , menggunakan
+            <span class="font-bold text-sky-500">Tailwind CSS</span> .
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back To top Start -->
+    <a
+      id="to-top"
+      href="#home"
+      class="fixed justify-center hidden items-center z-[9999] bottom-4 p-4 right-4 h-14 w-14 rounded-full bg-primary hover:animate-pulse"
+    >
+      <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+    <!-- Back To top End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
